@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Javascript_WebApp", "Javascript_WebApp\", "{5A063305-9BAF-4F20-A18C-DA33ADF999D2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Javascript_WebApp"
+		Debug.AspNetCompiler.PhysicalPath = "Javascript_WebApp\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Javascript_WebApp\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Javascript_WebApp"
+		Release.AspNetCompiler.PhysicalPath = "Javascript_WebApp\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Javascript_WebApp\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4065"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A063305-9BAF-4F20-A18C-DA33ADF999D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A063305-9BAF-4F20-A18C-DA33ADF999D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A063305-9BAF-4F20-A18C-DA33ADF999D2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A063305-9BAF-4F20-A18C-DA33ADF999D2}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
