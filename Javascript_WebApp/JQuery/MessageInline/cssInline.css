@@ -1,0 +1,33 @@
+﻿._alert-meg
+{
+    display:none
+ }
+ ._alert
+ {
+     background-color:#ffc
+ }
+ ._alert+._alert-meg
+ {
+    font-family:"arial",tahoma;
+    line-height:1.3em;
+    display:block;
+    font-size:11px;
+    color:#f58c14;
+    margin-top:3px
+    }.
+_alert+._alert-meg:before
+{
+    content:"ระบุ"
+}
+._alert+._alert-meg:after
+{
+    content:"ด้วยค่ะ"
+}
+._alert+._alert-meg.not-auto:before,._alert+._alert-meg.not-auto:after
+{
+    content:none
+ }
+ @media (min-width: 600px)
+ {
+     ._alert+._alert-meg{font-size:13px;margin-top:5px}
+ }
