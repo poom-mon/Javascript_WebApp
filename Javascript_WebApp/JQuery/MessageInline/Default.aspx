@@ -34,7 +34,7 @@
 
 			<div class="form-group">
 				<label class="_label">โทรศัพท์</label>
-				<input id="tbTel" class="form-control input-icon tel" type="tel" onkeypress=" return num_key(event);" maxlength="10" placeholder="โทรศัพท์">
+				<input id="tbTel" class="form-control input-icon tel" type="tel" onkeypress=" return onlyNumber(event);" maxlength="10" placeholder="โทรศัพท์">
  
 				<div class="_alert-meg"> เบอร์โทรศัพท์ </div>
 			</div>
